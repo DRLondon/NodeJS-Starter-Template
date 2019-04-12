@@ -3,7 +3,7 @@ var join = require('path').join()
 const PORT = process.env.PORT || 5000
 
 express()
-  .use(static(join(__dirname, 'public')))
+  .use(static(join(__dirname, 'static')))
   
   .set('views', join(__dirname, 'views'))
   .set('view engine', 'ejs')
