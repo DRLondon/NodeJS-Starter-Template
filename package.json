@@ -1,0 +1,33 @@
+{
+  "name": "nodejs-starter-template",
+  "version": "1.0.0",
+  "description": "Sample Node JS Starter Template for beginners",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DRLondon/NodeJS-Starter-Template.git"
+  },
+  "keywords": [
+    "Beginner",
+    "Template",
+    "Starter",
+    "Node",
+    "Javascript"
+  ],
+  "author": "Dyllon R. London",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DRLondon/NodeJS-Starter-Template/issues"
+  },
+  "homepage": "https://github.com/DRLondon/NodeJS-Starter-Template#readme",
+  "dependencies": {
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "request": "^2.88.0",
+    "tape": "^4.10.1"
+  }
+}
