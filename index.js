@@ -2,25 +2,6 @@ var express = require('express')
 var app = express()
 var http = require('http').Server(app).listen(process.env.PORT || 5000)
 var PORT = process.env.PORT || 5000
-// var path = require('path')
-
-
-// Standard from JOMA
-/*
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  // .use(express.static(__dirname))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-
-  .get('/', (req, res) => res.render('index'))
-
-
-  .use('/css', express.static(__dirname + '/public/css'))
-
-
-  .listen(PORT, () => console.log(`Listening on ${ PORT }`))
-*/
 
 app.use(express.static(__dirname))
 app.use("/css", express.static(__dirname + "./public/css"))
