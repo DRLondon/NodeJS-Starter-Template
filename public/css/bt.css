@@ -1,0 +1,23 @@
+body{
+    background: linear-gradient(270deg, #f7d9b5, #a98e83);
+    background-size: 400% 400%;
+    -webkit-animation: Transition 15s ease infinite;
+    -moz-animation: Transition 15s ease infinite;
+    animation: Transition 15s ease infinite;
+}
+
+@-webkit-keyframes Transition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@-moz-keyframes Transition {
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
+@keyframes Transition { 
+    0%{background-position:0% 50%}
+    50%{background-position:100% 50%}
+    100%{background-position:0% 50%}
+}
