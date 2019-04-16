@@ -5,7 +5,7 @@ A simple Node.js web application that utilizes a theme.
 * Have [Node.js](http://nodejs.org) installed.
 ```sh
 $ git clone git@github.com/DRLondon/NodeJS-Starter-Template.git
-$ cd cd NodeJS-Starter-Template
+$ cd NodeJS-Starter-Template
 $ npm install
 $ npm start
 ```
@@ -23,3 +23,8 @@ $ heroku open
 More info on deploying to Heroku
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+
+### TODO
+- [ ] Change the theme to something cooler.
+- [ ] Add Bootstrap
+- [ ] Add React or Angular

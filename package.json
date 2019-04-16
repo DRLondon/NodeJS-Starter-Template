@@ -1,7 +1,7 @@
 {
   "name": "nodejs-starter-template",
   "version": "1.0.0",
-  "description": "Sample Node JS Starter Template for beginners",
+  "description": "Simple Node JS Starter Template for beginners",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -16,7 +16,8 @@
     "Template",
     "Starter",
     "Node",
-    "Javascript"
+    "Javascript",
+    "Novice"
   ],
   "author": "Dyllon R. London",
   "license": "ISC",
