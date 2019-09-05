@@ -29,7 +29,7 @@ More info on deploying to Heroku
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### TODO
-- [ ] Change the theme to something cool.
+- [ x ] Change the theme to something cool.
 - [ ] Add Bootstrap
 - [ ] Add React or Angular
 
