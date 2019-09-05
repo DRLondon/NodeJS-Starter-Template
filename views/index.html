@@ -3,30 +3,77 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Weather Application</title>
+    <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
+    <title>Application</title>
 
-    <link rel="stylesheet" href="/public/css/bt.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css">
     <link rel="stylesheet" href="/public/css/stylesheet.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Roboto:300,400&display=swap');
+    </style>
 </head>
 <body>
     
-
-
-
-    <div class="location">
-        <h1 class="location-timezone">Timezone</h1>
-        <p>Icon</p>
-    </div>
-    
-    <div class="temperature">
-        <div class="degree-section">
-            <h2 class="temperature-degree">32</h2>
-            <span>F</span>
+    <header>
+        <div class="menu-toggle">
+            <i class="fas fa-bars"></i>
         </div>
-        <div class="temperature-description">It's actually cold today</div>
-    </div>
+        <div class="overlay"></div>
 
-    <script src="/public/js/app.js"></script>
+        <nav>
+            <i class="fas fa-times"></i>
+            <div class="logo">
+                <img src="/public/img/adidas.png" alt="adidas logo">
+            </div>
+
+            <div class="nav-middle">
+                <ul>
+                    <li><a href="#">Collection</a></li>
+                    <li><a href="#">Catalog</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Blog</a></li>
+                </ul>
+            </div>
+            <div class="nav-right">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-search"></i>
+                        </a>
+                    </li>               
+                    <li>
+                        <a href="#">
+                            <i class="fas fa-user"></i> Account
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i class="fas fa-shopping-cart"></i> Cart
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="main">
+            <div class="tone-1">
+                <div class="product-info">
+                    <h1>YEEZY BOOST 350</h1>
+                    <p>New and improved</p>
+                    <h2>$230</h2>
+                    <div class="info-btns">
+                        <a href="#" class="btn discover-btn">DISCOVER</a>
+                        <a href="#" class="btn discover-btn">ADD TO CART</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="tone-2">
+                <img src="/public/img/shoe.png" alt="shoe">
+            </div>
+        </div>
+    </header>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 </body>
 </html>

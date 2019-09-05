@@ -1,8 +1,11 @@
 # Node JS Simple Application
 A simple Node.js web application that utilizes a theme.
 
-## Running Locally
+## Prerequisites
 * Have [Node.js](http://nodejs.org) installed.
+* Have the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed.
+
+## Running Locally
 ```sh
 $ git clone git@github.com/DRLondon/NodeJS-Starter-Template.git
 $ cd NodeJS-Starter-Template
@@ -20,11 +23,14 @@ $ git push heroku master
 $ heroku open
 ```
 
+### Deploying to Heroku
 More info on deploying to Heroku
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
 
 ### TODO
-- [ ] Change the theme to something more cool.
+- [ ] Change the theme to something cool.
 - [ ] Add Bootstrap
 - [ ] Add React or Angular
+
+https://www.youtube.com/watch?v=r7BOeucua7o
