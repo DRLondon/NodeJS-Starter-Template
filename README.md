@@ -1,5 +1,5 @@
 # Node JS Simple Application
-A simple Node.js web application that utilizes a theme.
+A boilerplate Node.js web application.
 
 ## Prerequisites
 * Have [Node.js](http://nodejs.org) installed.
