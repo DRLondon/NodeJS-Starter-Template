@@ -32,5 +32,3 @@ More info on deploying to Heroku
 - [x] Change the theme to something cool.
 - [ ] Add Bootstrap
 - [ ] Add React or Angular
-
-https://www.youtube.com/watch?v=r7BOeucua7o
