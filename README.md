@@ -27,8 +27,9 @@ $ heroku open
 More info on deploying to Heroku
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
+[![Example]](https://fast-reaches-55074.herokuapp.com)
 
 ### TODO
-- [x] Change the theme to something cool.
+- [ ] Change the theme to something cool.
 - [ ] Add Bootstrap
-- [ ] Add React or Angular
+- [ ] Add React
