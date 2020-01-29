@@ -15,6 +15,7 @@ $ npm start
 
 The application should now run on [localhost:5000](http://localhost:5000).
 
+### Deploying to Heroku
 This application is also capable of being deployed to Heroku
 
 ```sh
@@ -23,7 +24,6 @@ $ git push heroku master
 $ heroku open
 ```
 
-### Deploying to Heroku
 More info on deploying to Heroku
 
 [![Deploy to Heroku](https://www.herokucdn.com/deploy/button.png)](https://heroku.com/deploy)
