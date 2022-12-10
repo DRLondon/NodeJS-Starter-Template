@@ -27,7 +27,7 @@
   "homepage": "https://github.com/DRLondon/NodeJS-Starter-Template#readme",
   "dependencies": {
     "ejs": "^2.6.1",
-    "express": "^4.16.4",
+    "express": "^4.17.3",
     "request": "^2.88.0",
     "tape": "^4.10.1"
   }
